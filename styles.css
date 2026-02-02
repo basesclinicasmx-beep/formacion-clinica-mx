@@ -138,3 +138,50 @@ blockquote {
   color: #1f1f1f;
   margin-bottom: 1rem;
 }
+/* =====================
+   OPTIMIZACIÓN MÓVIL
+===================== */
+@media (max-width: 768px) {
+
+  .header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    margin-top: 0.5rem;
+  }
+
+  .nav a {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .hero {
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .hero-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    width: 100%;
+    text-align: center;
+    padding: 0.9rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .whatsapp {
+    padding: 0.9rem 1.1rem;
+    font-size: 0.9rem;
+  }
+}
