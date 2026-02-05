@@ -214,3 +214,9 @@ blockquote {
   width: auto;
   display: block;
 }
+blockquote {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
