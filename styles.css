@@ -184,4 +184,21 @@ blockquote {
     padding: 0.9rem 1.1rem;
     font-size: 0.9rem;
   }
+/* Botón secundario */
+.btn-secondary {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.7rem 1.4rem;
+  border: 2px solid #1f3c88; /* azul profesional */
+  color: #1f3c88;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
+
+.btn-secondary:hover {
+  background: #1f3c88;
+  color: #ffffff;
+}
+
