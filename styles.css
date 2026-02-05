@@ -67,7 +67,7 @@ body {
 }
 
 .section {
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 
 .section-light {
@@ -95,7 +95,8 @@ body {
 }
 
 .card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 .card.destacada {
@@ -158,7 +159,7 @@ blockquote {
   }
 
   .hero {
-    padding: 3rem 0;
+    padding: 4rem 0;
     text-align: center;
   }
 
@@ -210,13 +211,23 @@ blockquote {
    LOGO
 ===================== */
 .logo {
-  max-height: 55px;
+  max-height: 48px;
   width: auto;
   display: block;
+}
+.header .container {
+  gap: 1rem;
 }
 blockquote {
   max-width: 800px;
   margin: auto;
   font-size: 1.1rem;
   line-height: 1.6;
+}
+.hero-content {
+  max-width: 750px;
+}
+
+.hero-content h2 {
+  line-height: 1.3;
 }
